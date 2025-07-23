@@ -154,7 +154,7 @@
         code: "public string VerUsuario(string nombre) {\n  string consulta = \"SELECT * FROM Usuarios WHERE nombre = '\" + nombre + \"'\";\n  return Ejecutar(consulta);\n} // Pista: cuidado con los datos que vienen del usuario.",
         options: [
           { text: "A) Está bien como está", correct: false },
-          { text: "B) Tiene una inyección SQL", correct: true },
+          { text: "B) Se puede hacer inyección SQL", correct: true },
           { text: "C) La variable no está declarada correctamente", correct: false },
           { text: "D) Es una mala práctica según las buenas prácticas de DBA en PTC", correct: false },
           { text: "E) Falta comentario de documentación", correct: false }
