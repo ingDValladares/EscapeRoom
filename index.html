@@ -238,8 +238,8 @@
       } else {
         incorrectCounter++;
         feedback.textContent = `❌ Incorrecto. Intento fallido #${incorrectCounter}`;
-        if (incorrectCounter >= 2) {
-          alert("Has fallado 2 veces. Serás devuelto a la Sala 1.");
+        if (incorrectCounter >= 1) {
+          alert("Has fallado. Serás devuelto a la Sala 1.");
           startGame();
         }
       }
